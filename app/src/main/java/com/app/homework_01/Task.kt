@@ -1,6 +1,5 @@
 package com.app.homework_01
 
-import java.lang.Thread.sleep
 import java.util.*
 import kotlin.system.measureTimeMillis
 
@@ -38,10 +37,6 @@ fun main() {
         Person("Anton", "Barinov", 32),
         Person("Andrei", "Barinov", 28),
     )
-
-//    personList.ageDescendingSort2().forEach { println(it) }
-//    println("-")
-//    personList.alphabeticSortSecond().forEach { println(it) }
 
 
     println(getFunExecutionTime { personList.ageDescendingSort() })
